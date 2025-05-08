@@ -6,7 +6,7 @@ This repository contains Python code and data for a computational physics projec
 
 The Ising model is a classical lattice model of interacting magnetic spins, used extensively in statistical physics to study phase transitions. In this project, we:
 
-- Simulate square lattices of spins (\( s_i = \pm 1 \)) with **periodic boundary conditions**
+- Simulate square lattices of spins with **periodic boundary conditions**
 - Compute energy per spin, magnetisation, magnetic susceptibility, and their fluctuations
 - Estimate finite-size critical temperatures using:
   - **Hyperbolic tangent fit** to the energy–temperature curve
