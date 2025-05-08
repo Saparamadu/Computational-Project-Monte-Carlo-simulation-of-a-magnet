@@ -53,7 +53,7 @@ def configPlot(fig, config, step, L, index):
     ax.set_xticks([])
     ax.set_yticks([])
     mesh = ax.pcolormesh(X, Y, config, cmap=plt.cm.bwr, shading='auto', vmin=-1, vmax=1)
-    ax.set_title(f'Iteration = {step}', fontsize=10)
+    ax.set_title(f'Iteration = {step}', fontsize=12)
     ax.axis('tight')
 
 
