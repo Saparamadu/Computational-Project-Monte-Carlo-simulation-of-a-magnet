@@ -80,8 +80,7 @@ for L in L_values:
     popt, pcov = curve_fit(
         wrapper_fit, T_fit, chi_fit,
         p0=[max(chi_fit), T_peak, 1.0, min(chi_fit)],  # Initial guess
-        bounds=([0, T_peak - 0.5, 0, -np.inf], [np.inf, T_peak + 0.5, np.inf, np.inf])
-    )
+        )
 
     # Extract fitted parameters
     A, Tc, gamma0, offset = popt
