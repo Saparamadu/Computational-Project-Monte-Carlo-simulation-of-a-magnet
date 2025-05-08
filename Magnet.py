@@ -2,6 +2,7 @@
 # Date: 06/02/2025
 # Description: Simulation of a 2D Ising model to calculate energy, magnetisation, and their fluctuations
 #              across a temperature range using the Metropolis Monte Carlo algorithm.
+# Inspirations from: https://rajeshrinet.github.io/blog/2014/ising-model/
 
 import numpy as np
 import math
